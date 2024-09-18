@@ -490,15 +490,15 @@
 
 ### Outcomes and Insights
 
-*_1. Participation Trends:_* Analyzed professional development participation rates by department, identifying areas with higher engagement.
+*1. Participation Trends:* Analyzed professional development participation rates by department, identifying areas with higher engagement.
 
-*_2. Cost Breakdown:_* Provided detailed insights into the financial resources allocated for professional development across different departments and activities.
+*2. Cost Breakdown:* Provided detailed insights into the financial resources allocated for professional development across different departments and activities.
 
-*_3. Approval Status:_* Tracked the approval process for professional development requests, offering data-driven suggestions to streamline approvals.
+*3. Approval Status:* Tracked the approval process for professional development requests, offering data-driven suggestions to streamline approvals.
 
-*_4. Email Data Integration:_* Using Amazon SageMaker and DynamoDB, employee emails related to professional development were automatically processed, structured, and included in the overall analysis, improving the efficiency of data collection and organization.
+*4. Email Data Integration:* Using Amazon SageMaker and DynamoDB, employee emails related to professional development were automatically processed, structured, and included in the overall analysis, improving the efficiency of data collection and organization.
 
-*_5. Recommendations:_* Suggested improvements to professional development policies based on the analysis, aimed at increasing engagement and optimizing costs.
+*5. Recommendations:* Suggested improvements to professional development policies based on the analysis, aimed at increasing engagement and optimizing costs.
 
 ### Conclusion
 
