@@ -9,10 +9,14 @@ The objective of this project was to analyze property tax data from the City of 
 Dataset
 
 Source: Property tax datasets for 2023 and 2024 were downloaded from the City of Vancouver Open Data Portal.
+
 Fields: Key fields included:
-    Property Type: Residential, strata, land, etc.
-    Zoning Classification: Associated zoning codes.
-    Tax Values: Assessed tax values for each property.
+    
+	• Property Type: Residential, strata, land, etc.
+    
+	• Zoning Classification: Associated zoning codes.
+    
+	• Tax Values: Assessed tax values for each property.
     
 Methodology
 
