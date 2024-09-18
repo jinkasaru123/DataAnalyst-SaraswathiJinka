@@ -12,11 +12,11 @@ The objective of this project was to analyze property tax data from the City of 
 
 **Fields:** Key fields included:
     
-	• Property Type: Residential, strata, land, etc.
+   •  Property Type: Residential, strata, land, etc.
     
-	• Zoning Classification: Associated zoning codes.
+   •  Zoning Classification: Associated zoning codes.
     
-	• Tax Values: Assessed tax values for each property.
+   •  Tax Values: Assessed tax values for each property.
     
 Methodology
 
