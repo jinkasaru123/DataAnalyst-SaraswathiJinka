@@ -57,17 +57,19 @@ o	The processed datasets were made accessible to stakeholders via a web interfac
 •	Data Storage: The transformed data and visual reports were uploaded to S3, allowing for easy access and sharing among stakeholders.
 
 Tools and Technologies
+
 •	AWS Services:
-o	S3: Data storage and management.
-o	AWS Glue: Data cleaning, transformation, and ETL pipeline implementation.
-o	Amazon Athena: SQL queries for table creation and dataset management.
-o	Amazon CloudWatch: System monitoring.
-o	AWS CloudTrail: Audit logs and user activity tracking.
-o	KMS Encryption: Data security.
-o	EC2 Instances: Web hosting and report publishing.
+1. S3: Data storage and management.
+2. AWS Glue: Data cleaning, transformation, and ETL pipeline implementation.
+3. Amazon Athena: SQL queries for table creation and dataset management.
+4. Amazon CloudWatch: System monitoring.
+5. AWS CloudTrail: Audit logs and user activity tracking.
+6. KMS Encryption: Data security.
+7. EC2 Instances: Web hosting and report publishing.
+   
 •	Data Visualization:
-o	Excel: Used to generate interactive visualizations such as charts and dashboards.
-o	Draw.io: Used for visualizing the ETL pipeline workflow.
+1. Excel: Used to generate interactive visualizations such as charts and dashboards.
+2. Draw.io: Used for visualizing the ETL pipeline workflow.
 
 Deliverables
 •	A fully functioning ETL pipeline implemented using AWS Glue to process property tax data.
