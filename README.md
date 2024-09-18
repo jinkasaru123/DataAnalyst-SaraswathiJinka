@@ -10,7 +10,6 @@
 
 *Fig 1: Data Anlytical Platform*
 
-
 ### Dataset
 
 **_Source:_** Property tax datasets for 2023 and 2024 were downloaded from the City of Vancouver Open Data Portal.
@@ -273,5 +272,181 @@
 &nbsp;&nbsp;&nbsp;This project successfully leveraged AWS cloud services to handle, process, and analyze the City of Vancouver’s property tax data. The implemented ETL pipeline, combined with detailed data analysis and insightful visualizations, provided stakeholders with actionable insights. These insights can be used to guide future decisions regarding property tax policies and zoning regulations.
 
 
+
+
+
+
+## _Project 2 Title: Professional Development Data Analysis Platform for UCW HR Office_
+
+### Objective
+
+&nbsp;&nbsp;&nbsp;The objective of this project was to analyze and manage professional development data for UCW HR Office. The project involved creating a data platform that stores, processes, and provides insights into the university’s professional development activities, tracking employee participation, costs, and compliance with UCW policies.
+
+### Dataset
+
+**_Source:_** Professional Development datasets were downloaded from the ChatGPT.
+
+*Employee IDs:* Unique identifiers for staff.
+
+*Professional Development Activities:* Conferences, courses, and workshops attended.
+
+*Costs:* Costs associated with professional development activities.
+
+*Approval Status:* Whether activities were approved or pending.
+
+*Completion Records:* Proof of completed activities and expenses.
+
+### Methodology
+
+#### 1. Data Collection and Storage
+
+**_Data Acquisition:_** Professional development activity data was collected from UCW HR’s internal systems.
+
+**_Storage Solution:_**
+
+- The dataset was uploaded and stored in AWS S3.
+
+- Data was organized into S3 landing zones, categorized by year and employee department.
+
+- Security: KMS encryption was applied to protect sensitive employee data.
+
+#### 2. Data Cleaning and Transformation
+
+**_Data Preparation Using AWS Glue DataBrew:_**
+
+- Fields like Employee IDs, Professional Development Type, and Costs were standardized.
+
+- A "Year" column was added to facilitate comparisons between 2023 and 2024 datasets.
+
+- Cleaned data was stored in the Raw S3 bucket.
+
+#### 3. ETL Pipeline Design
+
+**_ETL Pipeline Design:_**
+
+- An ETL (Extract, Transform, Load) pipeline was designed using Draw.io to map the data flow from the Landing S3 bucket to the Curated S3 bucket.
+
+- Key transformations included renaming columns for consistency, filtering out unnecessary data, and aggregating the tax levy datasets.
+
+**_ETL Implementation Using AWS Glue:_**
+
+- The ETL pipeline was implemented in AWS Glue to extract data from the Raw S3 bucket, transform it, and load it into the Curated S3 bucket.
+
+#### 4. Data Analysis
+
+**Amazon Athena was used for creating external tables:**
+
+**_SQL Queries:_** SQL was utilized only for creating tables to organize the datasets in Athena and point to the curated data stored in S3.
+
+**_Data Analysis:_**
+
+- Excel was used to analyze trends in professional development activities, costs, and approval rates across departments.
+
+- This analysis allowed UCW HR to identify key areas of spending, compliance, and professional growth for employees.
+
+#### 5. Data Protection and Governance:
+
+**_Data Encryption:_** KMS keys were used to encrypt all data stored in S3.
+
+**_Backup and Replication:_**
+
+- A backup S3 bucket was created to ensure data availability in case of failures.
+
+- Replication rules were applied to securely transfer data between the primary and backup S3 buckets using the same KMS encryption.
+
+- Automated Data Governance: AWS Glue was used to conduct regular data quality checks, with a scheduled automation process ensuring data consistency and accuracy.
+
+#### 6. Data Monitoring
+
+- Amazon CloudWatch and AWS CloudTrail were employed for continuous monitoring and tracking:
+
+- CloudWatch was used to monitor key metrics such as resource consumption and cost estimations.
+
+- CloudTrail tracked all user activities and API calls, storing the logs in S3 for audit purposes.
+
+#### 7. Data  Visualization
+
+**_Visualization Tools:_**
+
+- Excel was utilized to create interactive charts such as pie, bar, and line graphs.
+
+- A dashboard was created to present insights, including professional development costs and trends.
+
+#### 8. Data Publishing:
+
+**_Server Setup:_**
+
+- EC2 Instances were configured to host and publish the processed data and visualizations.
+
+- The processed datasets were made accessible to stakeholders via a web interface hosted on the EC2 instances.
+
+**_Data Storage:_** The transformed data and visual reports were uploaded to Remote access, allowing for easy access and sharing among stakeholders.
+
+### Tools and Technologies
+
+**_AWS Services:_**
+
+- S3: Data storage and management.
+
+- AWS Glue: Data cleaning, transformation, and ETL pipeline implementation.
+
+- Amazon Athena: SQL queries for table creation and dataset management.
+
+- Amazon CloudWatch: System monitoring.
+
+- AWS CloudTrail: Audit logs and user activity tracking.
+
+- KMS Encryption: Data security.
+
+- EC2 Instances: Web hosting and report publishing.
+  
+**_Data Visualization:_**
+
+- Excel: Used to generate interactive visualizations such as charts and dashboards.
+
+- Draw.io: Used for visualizing the ETL pipeline workflow.
+
+### Additional Tools
+
+**Amazon SageMaker:**
+
+- Used for processing emails and extracting relevant data for table creation.
+
+- SageMaker's machine learning capabilities were applied to identify and structure key information from emails related to professional development activities.
+
+**DynamoDB**
+
+- Structured tables were created in DynamoDB from the extracted email data, allowing for seamless integration into the overall analysis pipeline.
+
+-These tables contained structured data, such as employee professional development requests and related approvals.
+
+### Deliverables
+
+- A complete ETL pipeline implemented using AWS Glue, enabling automated data processing for professional development tracking.
+
+- Interactive Excel dashboards displaying trends in employee participation, professional development costs, and approval status.
+
+- Web-accessible reports hosted on EC2 instances, allowing stakeholders easy access to data insights.
+
+- A comprehensive report summarizing trends, costs, and compliance with professional development policies.
+
+- Tables generated from email data using Amazon SageMaker and DynamoDB, providing an automated method of capturing and organizing professional development requests from employee communications.
+
+
+### Outcomes and Insights
+
+*_1. Participation Trends:_* Analyzed professional development participation rates by department, identifying areas with higher engagement.
+
+*_Cost Breakdown:_* Provided detailed insights into the financial resources allocated for professional development across different departments and activities.
+
+*_Approval Status:_* Tracked the approval process for professional development requests, offering data-driven suggestions to streamline approvals.
+
+*_Email Data Integration:_* Using Amazon SageMaker and DynamoDB, employee emails related to professional development were automatically processed, structured, and included in the overall analysis, improving the efficiency of data collection and organization.
+
+*_Recommendations:_* Suggested improvements to professional development policies based on the analysis, aimed at increasing engagement and optimizing costs.
+
+### Conclusion
+
+&nbsp;&nbsp;&nbsp;This project successfully built a data platform for the UCW HR Office, enabling the team to track, analyze, and report on professional development activities. By automating data processing and utilizing machine learning through Amazon SageMaker and DynamoDB, the platform delivered improved efficiency in managing professional development requests. Key insights derived from the analysis will help UCW make informed decisions about professional growth, budget optimization, and employee development strategies.
 
 
