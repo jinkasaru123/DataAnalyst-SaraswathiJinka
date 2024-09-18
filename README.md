@@ -357,11 +357,15 @@
 
 ![Class participation week 8-1](https://github.com/user-attachments/assets/137020ea-5db4-4ecb-aa5c-882b199b304b)
 
+![image](https://github.com/user-attachments/assets/317d8350-5361-4169-bd4c-2d9f33e753f0)
+
 #### 4. Data Analysis
 
 **Amazon Athena was used for creating external tables:**
 
 **_SQL Queries:_** SQL was utilized only for creating tables to organize the datasets in Athena and point to the curated data stored in S3.
+
+![image](https://github.com/user-attachments/assets/51e20f50-b23f-4af9-bb3e-7a420afbaeaf)
 
 **_Data Analysis:_**
 
@@ -397,6 +401,8 @@
 
 - A dashboard was created to present insights, including professional development costs and trends.
 
+![image](https://github.com/user-attachments/assets/cd5c3b26-f349-4cfe-b7ff-4ac79ed6a616)
+
 #### 8. Data Publishing:
 
 **_Server Setup:_**
@@ -404,6 +410,10 @@
 - EC2 Instances were configured to host and publish the processed data and visualizations.
 
 - The processed datasets were made accessible to stakeholders via a web interface hosted on the EC2 instances.
+
+![image](https://github.com/user-attachments/assets/9d2b5fab-9866-40d8-9d46-36a71be9a904)
+
+![image](https://github.com/user-attachments/assets/e4adeac4-f319-42f7-941a-dfdf20c7a460)
 
 **_Data Storage:_** The transformed data and visual reports were uploaded to Remote access, allowing for easy access and sharing among stakeholders.
 
@@ -442,9 +452,15 @@
 
 - SageMaker's machine learning capabilities were applied to identify and structure key information from emails related to professional development activities.
 
+![image](https://github.com/user-attachments/assets/66248d8a-de7e-4a7d-88b1-584139f12c62)
+
+![image](https://github.com/user-attachments/assets/e1aeea58-b280-4281-9ae0-61508c5bc058)
+
 **DynamoDB**
 
 - Structured tables were created in DynamoDB from the extracted email data, allowing for seamless integration into the overall analysis pipeline.
+
+![image](https://github.com/user-attachments/assets/7553ec72-ea7d-4221-8b1b-c983722170d1)
 
 -These tables contained structured data, such as employee professional development requests and related approvals.
 
@@ -465,13 +481,13 @@
 
 *_1. Participation Trends:_* Analyzed professional development participation rates by department, identifying areas with higher engagement.
 
-*_Cost Breakdown:_* Provided detailed insights into the financial resources allocated for professional development across different departments and activities.
+*_2. Cost Breakdown:_* Provided detailed insights into the financial resources allocated for professional development across different departments and activities.
 
-*_Approval Status:_* Tracked the approval process for professional development requests, offering data-driven suggestions to streamline approvals.
+*_3. Approval Status:_* Tracked the approval process for professional development requests, offering data-driven suggestions to streamline approvals.
 
-*_Email Data Integration:_* Using Amazon SageMaker and DynamoDB, employee emails related to professional development were automatically processed, structured, and included in the overall analysis, improving the efficiency of data collection and organization.
+*_4. Email Data Integration:_* Using Amazon SageMaker and DynamoDB, employee emails related to professional development were automatically processed, structured, and included in the overall analysis, improving the efficiency of data collection and organization.
 
-*_Recommendations:_* Suggested improvements to professional development policies based on the analysis, aimed at increasing engagement and optimizing costs.
+*_5. Recommendations:_* Suggested improvements to professional development policies based on the analysis, aimed at increasing engagement and optimizing costs.
 
 ### Conclusion
 
