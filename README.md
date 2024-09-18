@@ -6,7 +6,7 @@ Objective
 
 The objective of this project was to analyze property tax data from the City of Vancouver for the years 2023 and 2024. The project aimed to derive insights regarding year-over-year trends, the impact of zoning classifications, regional differences, and comparisons across property types (e.g., strata and land).
 
-Dataset
+**Dataset**
 
 Source: Property tax datasets for 2023 and 2024 were downloaded from the City of Vancouver Open Data Portal.
 
