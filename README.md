@@ -1,17 +1,18 @@
 # DataAnalyst-SaraswathiJinka
 
+
 Project Title: Data Analytical Platform for City of Vancouver Property Tax Report
-________________________________________
+
 Objective
 The objective of this project was to analyze property tax data from the City of Vancouver for the years 2023 and 2024. The project aimed to derive insights regarding year-over-year trends, the impact of zoning classifications, regional differences, and comparisons across property types (e.g., strata and land).
-________________________________________
+
 Dataset
 •	Source: Property tax datasets for 2023 and 2024 were downloaded from the City of Vancouver Open Data Portal.
 •	Fields: Key fields included:
 o	Property Type: Residential, strata, land, etc.
 o	Zoning Classification: Associated zoning codes.
 o	Tax Values: Assessed tax values for each property.
-________________________________________
+
 Methodology
 1. Data Collection and Storage:
 •	Data Acquisition: The datasets for 2023 and 2024 were downloaded in Excel format from the City of Vancouver Open Data Portal.
@@ -54,7 +55,7 @@ o	A dashboard was prepared using Excel, highlighting key insights such as year-o
 o	EC2 Instances were configured to host and publish the processed data and visualizations.
 o	The processed datasets were made accessible to stakeholders via a web interface hosted on the EC2 instances.
 •	Data Storage: The transformed data and visual reports were uploaded to S3, allowing for easy access and sharing among stakeholders.
-________________________________________
+
 Tools and Technologies
 •	AWS Services:
 o	S3: Data storage and management.
@@ -67,19 +68,23 @@ o	EC2 Instances: Web hosting and report publishing.
 •	Data Visualization:
 o	Excel: Used to generate interactive visualizations such as charts and dashboards.
 o	Draw.io: Used for visualizing the ETL pipeline workflow.
-________________________________________
+
 Deliverables
 •	A fully functioning ETL pipeline implemented using AWS Glue to process property tax data.
 •	Interactive Excel dashboards to visualize property tax trends, zoning impacts, and regional differences.
 •	Web-accessible reports and visualizations hosted on EC2 instances for stakeholder access.
 •	A comprehensive report summarizing the data analysis, findings, and key insights.
-________________________________________
+
 Outcomes and Insights
 •	Year-Over-Year Trends: Notable changes in tax values across various property types were identified between 2023 and 2024.
 •	Zoning Impact: The impact of zoning classifications on property tax assessments was clearly demonstrated.
 •	Regional Differences: Variations in tax values across different regions were identified, offering insights into potential policy adjustments.
 •	Recommendations: Data-driven suggestions were provided to inform future decisions related to zoning and taxation policies.
-________________________________________
+
 Conclusion
 This project successfully leveraged AWS cloud services to handle, process, and analyze the City of Vancouver’s property tax data. The implemented ETL pipeline, combined with detailed data analysis and insightful visualizations, provided stakeholders with actionable insights. These insights can be used to guide future decisions regarding property tax policies and zoning regulations.
+
+
+
+
 
