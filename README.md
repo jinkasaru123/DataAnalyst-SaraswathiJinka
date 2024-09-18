@@ -427,8 +427,6 @@
 
 ![Screenshot 2024-08-04 144913](https://github.com/user-attachments/assets/e8229354-d278-412d-8a98-2d03f4fa44db)
 
-*Fig.xxxii: Visualizing Data Base in remote access(front-end for the client)*
-
 **_Data Storage:_** The transformed data and visual reports were uploaded to Remote access, allowing for easy access and sharing among stakeholders.
 
 ### Tools and Technologies
@@ -458,7 +456,6 @@
 ### Additional Tools
 
 ![Class Participation 6](https://github.com/user-attachments/assets/8bf26708-c843-42f5-9814-b2d52af8e5ea)
-
 
 **Amazon SageMaker:**
 
