@@ -2,6 +2,29 @@
 
 ## _Project 2 Title: Professional Development Data Analysis Platform for UCW HR Office_
 
+## Table of Contents
+
+1. [Objective](#objective)
+2. [Dataset](#dataset)
+   - [Source](#source)
+   - [Fields](#fields)
+3. [Methodology](#methodology)
+   - [1. Data Collection and Storage](#1-data-collection-and-storage)
+   - [2. Data Cleaning and Transformation](#2-data-cleaning-and-transformation)
+   - [3. ETL Pipeline Design](#3-etl-pipeline-design)
+   - [4. Data Analysis](#4-data-analysis)
+   - [5. Data Protection and Governance](#5-data-protection-and-governance)
+   - [6. Data Monitoring](#6-data-monitoring)
+   - [7. Data Visualization](#7-data-visualization)
+   - [8. Data Publishing](#8-data-publishing)
+4. [Tools and Technologies](#tools-and-technologies)
+   - [AWS Services](#aws-services)
+   - [Data Visualization](#data-visualization)
+   - [Additional Tools](#additional-tools)
+5. [Deliverables](#deliverables)
+6. [Outcomes and Insights](#outcomes-and-insights)
+7. [Conclusion](#conclusion)
+
 ### Objective
 
 &nbsp;&nbsp;&nbsp;The objective of this project was to analyze and manage professional development data for UCW HR Office. The project involved creating a data platform that stores, processes, and provides insights into the university’s professional development activities, tracking employee participation, costs, and compliance with UCW policies.
