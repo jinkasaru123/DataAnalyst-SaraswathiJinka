@@ -273,14 +273,19 @@
 
 
 
-
-
-
 ## _Project 2 Title: Professional Development Data Analysis Platform for UCW HR Office_
 
 ### Objective
 
 &nbsp;&nbsp;&nbsp;The objective of this project was to analyze and manage professional development data for UCW HR Office. The project involved creating a data platform that stores, processes, and provides insights into the university’s professional development activities, tracking employee participation, costs, and compliance with UCW policies.
+
+![Draw io, week 2](https://github.com/user-attachments/assets/e418948a-6b8c-47e6-9ae6-9d9b6a731055)
+
+![Screenshot 2024-07-10 160114](https://github.com/user-attachments/assets/476f95ae-9280-420b-9146-42917e486bde)
+
+**Created AWS Account**
+
+![Screenshot 2024-07-10 160158](https://github.com/user-attachments/assets/804f6bbe-0bcb-4fd2-9bdc-c9bbf11aebbf)
 
 ### Dataset
 
@@ -296,6 +301,14 @@
 
 *Completion Records:* Proof of completed activities and expenses.
 
+![Screenshot 2024-07-21 143055](https://github.com/user-attachments/assets/47e1577e-8332-436b-8b41-bd63833620db)
+
+![Screenshot 2024-07-21 142953](https://github.com/user-attachments/assets/19f16db0-660a-4143-90f8-643ae96d267f)
+
+![Screenshot 2024-07-21 143200](https://github.com/user-attachments/assets/b98507ba-e60f-4dff-8707-7444e0f20df0)
+
+![Screenshot 2024-07-21 143333](https://github.com/user-attachments/assets/5a5334d8-8902-4a86-a4c0-94e73d2cfc0e)
+
 ### Methodology
 
 #### 1. Data Collection and Storage
@@ -310,15 +323,21 @@
 
 - Security: KMS encryption was applied to protect sensitive employee data.
 
+![Aws creating Folder](https://github.com/user-attachments/assets/0beb74e8-744a-4103-88d0-950283f16fbd)
+
+
+
 #### 2. Data Cleaning and Transformation
 
 **_Data Preparation Using AWS Glue DataBrew:_**
 
 - Fields like Employee IDs, Professional Development Type, and Costs were standardized.
 
-- A "Year" column was added to facilitate comparisons between 2023 and 2024 datasets.
+- A "Year" column was added to facilitate the dataset.
 
 - Cleaned data was stored in the Raw S3 bucket.
+
+![Class Participation 3](https://github.com/user-attachments/assets/eae7689c-1816-478b-a2dc-194c0f83cad3)
 
 #### 3. ETL Pipeline Design
 
@@ -328,9 +347,15 @@
 
 - Key transformations included renaming columns for consistency, filtering out unnecessary data, and aggregating the tax levy datasets.
 
+![ETL on DRAw io1](https://github.com/user-attachments/assets/103cb2e6-3082-4950-aad6-40f312c2df10)
+
+![ETL on Draw io](https://github.com/user-attachments/assets/22f9d4a1-6c68-42f4-9d64-ce628f52e3c4)
+
 **_ETL Implementation Using AWS Glue:_**
 
 - The ETL pipeline was implemented in AWS Glue to extract data from the Raw S3 bucket, transform it, and load it into the Curated S3 bucket.
+
+![Class participation week 8-1](https://github.com/user-attachments/assets/137020ea-5db4-4ecb-aa5c-882b199b304b)
 
 #### 4. Data Analysis
 
@@ -407,6 +432,9 @@
 - Draw.io: Used for visualizing the ETL pipeline workflow.
 
 ### Additional Tools
+
+![Class Participation 6](https://github.com/user-attachments/assets/8bf26708-c843-42f5-9814-b2d52af8e5ea)
+
 
 **Amazon SageMaker:**
 
