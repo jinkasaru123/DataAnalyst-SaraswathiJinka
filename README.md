@@ -17,6 +17,8 @@ The objective of this project was to analyze property tax data from the City of 
    •  Zoning Classification: Associated zoning codes.
     
    •  Tax Values: Assessed tax values for each property.
+
+   !(https://github.com/jinkasaru123/DataAnalyst-SaraswathiJinka/issues/1#issue-2532717136)
     
 Methodology
 
