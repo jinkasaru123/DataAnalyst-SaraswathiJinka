@@ -18,6 +18,9 @@ The objective of this project was to analyze property tax data from the City of 
     
    •  Tax Values: Assessed tax values for each property.
 
+   ![image](https://github.com/user-attachments/assets/58a7b5d6-fc15-4032-ba12-2f5fc157c562)
+
+
    !(https://github.com/jinkasaru123/DataAnalyst-SaraswathiJinka/issues/1#issue-2532717136)
     
 Methodology
