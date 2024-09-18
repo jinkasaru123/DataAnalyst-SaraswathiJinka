@@ -8,9 +8,9 @@
 
 ### Dataset
 
-**Source:** Property tax datasets for 2023 and 2024 were downloaded from the City of Vancouver Open Data Portal.
+**_Source:_** Property tax datasets for 2023 and 2024 were downloaded from the City of Vancouver Open Data Portal.
 
-**Fields:** Key fields included are
+**_Fields:_** Key fields included are
 
 - Property Type: Residential, strata, land, etc.
 
@@ -22,19 +22,19 @@
 
 #### 1. Data Collection and Storage
 
-**Data Acquisition:** The datasets for 2023 and 2024 were downloaded in Excel format from the City of Vancouver Open Data Portal.
+**_Data Acquisition:_** The datasets for 2023 and 2024 were downloaded in Excel format from the City of Vancouver Open Data Portal.
 
-**Storage Solution:**
+**_Storage Solution:_**
 
 - The Excel files were uploaded to AWS S3.
 
 - Datasets were organized into S3 landing zones for both years.
 
-**Security:** KMS encryption was applied to secure the data at rest.
+**_Security:_** KMS encryption was applied to secure the data at rest.
 
 #### 2. Data Cleaning and Transformation
 
-**Data Preparation Using AWS Glue DataBrew:**
+**_Data Preparation Using AWS Glue DataBrew:_**
 
 - The data was cleaned, correcting any inconsistencies and handling missing values.
 
@@ -44,31 +44,31 @@
 
 #### 3. ETL Pipeline Design
 
-**ETL Pipeline Design:**
+**_ETL Pipeline Design:_**
 
 - An ETL (Extract, Transform, Load) pipeline was designed using Draw.io to map the data flow from the Landing S3 bucket to the Curated S3 bucket.
 
 - Key transformations included renaming columns for consistency, filtering out unnecessary data, and aggregating the tax levy datasets.
 
-**ETL Implementation Using AWS Glue:**
+**_ETL Implementation Using AWS Glue:_**
 
 - The ETL pipeline was implemented in AWS Glue to extract data from the Raw S3 bucket, transform it, and load it into the Curated S3 bucket.
 
 #### 4. Data Analysis
 
-&nbsp;&nbsp;**Amazon Athena was used for creating external tables:**
+**Amazon Athena was used for creating external tables:**
 
-**SQL Queries:** SQL was utilized only for creating tables to organize the datasets in Athena and point to the curated data stored in S3.
+**_SQL Queries:_** SQL was utilized only for creating tables to organize the datasets in Athena and point to the curated data stored in S3.
 
 #### 5. Data Visualization
 
-&nbsp;&nbsp;Analysis of tax trends, zoning impacts, and regional differences was conducted through visualizations created in Excel.
+- Analysis of tax trends, zoning impacts, and regional differences was conducted through visualizations created in Excel.
 
 #### 6. Data Protection and Governance:
 
-**Data Encryption:** KMS keys were used to encrypt all data stored in S3.
+**_Data Encryption:_** KMS keys were used to encrypt all data stored in S3.
 
-**Backup and Replication:**
+**_Backup and Replication:_**
 
 - A backup S3 bucket was created to ensure data availability in case of failures.
 
@@ -86,7 +86,7 @@
 
 #### 8. Data Visualization
 
-**Visualization Tools:**
+**_Visualization Tools:_**
 
 - Excel was utilized to create interactive charts such as pie, bar, and line graphs.
 
@@ -94,17 +94,17 @@
 
 #### 9. Data Publishing:
 
-**Server Setup:**
+**_Server Setup:_**
 
 - EC2 Instances were configured to host and publish the processed data and visualizations.
 
 - The processed datasets were made accessible to stakeholders via a web interface hosted on the EC2 instances.
 
-**Data Storage:** The transformed data and visual reports were uploaded to S3, allowing for easy access and sharing among stakeholders.
+**_Data Storage:_** The transformed data and visual reports were uploaded to S3, allowing for easy access and sharing among stakeholders.
 
 ### Tools and Technologies
 
-**AWS Services:**
+**_AWS Services:_**
 
 - S3: Data storage and management.
 
@@ -120,7 +120,7 @@
 
 - EC2 Instances: Web hosting and report publishing.
   
-**Data Visualization:**
+**_Data Visualization:_**
 
 - Excel: Used to generate interactive visualizations such as charts and dashboards.
 
