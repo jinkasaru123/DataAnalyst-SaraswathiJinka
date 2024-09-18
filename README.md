@@ -10,7 +10,7 @@ This repository contains two key projects focused on data analysis and ETL proce
 The **Data Analytical Platform for City of Vancouver Property Tax Report** is an end-to-end solution built using AWS cloud services. The project involves collecting property tax data, cleaning and transforming the dataset, applying data governance strategies, and generating insightful visualizations.
 
 ### Key Features:
-- **Data Source:** City of Vancouver Property Tax Data (2013-2024)
+- **Data Source:** City of Vancouver Property Tax Data (2023-2024)
 - **ETL Process:** AWS Glue for transformation, Athena for querying, and S3 for data storage
 - **Data Governance:** KMS encryption, scheduling of regular data quality checks, workflow automation
 - **Tools Used:** AWS Glue, Athena, S3, EC2
