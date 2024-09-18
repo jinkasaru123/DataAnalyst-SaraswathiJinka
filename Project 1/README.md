@@ -2,6 +2,26 @@
 
 ## _Project 1 Title: Data Analytical Platform for City of Vancouver Property Tax Report_
 
+## Table of Contents
+
+1. [Objective](#objective)
+2. [Dataset](#dataset)
+   - [Source](#source)
+   - [Fields](#fields)
+3. [Methodology](#methodology)
+   - [1. Data Collection and Storage](#1-data-collection-and-storage)
+   - [2. Data Cleaning and Transformation](#2-data-cleaning-and-transformation)
+   - [3. ETL Pipeline Design](#3-etl-pipeline-design)
+   - [4. Data Analysis](#4-data-analysis)
+   - [5. Data Protection and Governance](#5-data-protection-and-governance)
+   - [6. Data Monitoring](#6-data-monitoring)
+   - [7. Data Visualization](#7-data-visualization)
+   - [8. Data Publishing](#8-data-publishing)
+4. [Tools and Technologies](#tools-and-technologies)
+5. [Deliverables](#deliverables)
+6. [Outcomes and Insights](#outcomes-and-insights)
+7. [Conclusion](#conclusion)
+
 ### Objective
 
 &nbsp;&nbsp;&nbsp;The objective of this project was to analyze property tax data from the City of Vancouver for the years 2023 and 2024. The project aimed to derive insights regarding year-over-year trends, the impact of zoning classifications, regional differences, and comparisons across property types (e.g., strata and land).
